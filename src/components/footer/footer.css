@@ -1,0 +1,74 @@
+footer {
+    background: url("/public/assets/img/webimg/contact-bg1.webp ");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.onlineTraining{
+   
+    margin: 20px!important;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 15px 20px;
+    border: 2px solid rgba(250,250,250,0.1);
+}
+.onlineTraining::before{
+    width: 1px;
+    height: 50px;
+    background-color: rgba(250,250,250,0.1);
+    position: absolute;
+    top: -52px;
+    content: '';
+    left: 50%;
+    transform: translate(-50%);
+}
+.ZebLearnAbout {
+    margin-top: 100px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 15px 20px;
+    border: 2px solid rgba(250,250,250,0.1);
+}
+.ZebLearnAbout::before{
+    width: 1px;
+    height: 100px;
+    background-color: rgba(250,250,250,0.1);
+    position: absolute;
+    top: -102px;
+    content: '';
+    left: 50%;
+    transform: translate(-50%);
+}
+ul {
+    text-align: left;
+    color:#FFFFFF;
+    list-style:disc!important;
+    font-size: 0.8rem; 
+    line-height:1.2rem;
+}
+ul li {
+    color: #FFFFFF;
+    width: 15rem;
+}
+ul li a:hover{
+    color: rgb(255, 204, 51)
+}
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.footer-columns {
+    display: flex;
+    width: 75% ;
+    margin: auto;
+
+}

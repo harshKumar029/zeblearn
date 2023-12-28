@@ -1,0 +1,84 @@
+/* placement.css */
+.background-image {
+    /* Add your background image URL and desired styles */
+    background-image: url('/public/assets/img/webimg/map.png'); /* Replace with your image path */
+    background-size: cover;
+    /* Add any other styles like background position, repeat, etc. */
+  }
+  .slidecont{
+    padding-bottom: 10rem;
+  }
+.sliderheader{
+    justify-content: center;
+    text-align: center;
+}
+.sliderheader h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #20394f;
+}
+.sliderheader hr{
+    width: 100px;
+    border-top: 2px solid #7cdae2;
+    color: #2a9df4;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.sliderheader  a{
+    /* background-color: #f5a425; */
+    color: #000;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 12px 20px;
+    /* display: inline-block; */
+    /* outline: none; */
+    border-width: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.sliderheader a span{
+    color: #f5a425;
+}
+.sliderheader a span:hover{
+    color: #f5cb89;
+    
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-228%); }
+  }
+  
+  .slider-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 80%;/* Adjust the maximum width of the slider */
+    margin: 0 auto; /* Center the slider */
+    padding-top: 8rem;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slide 30s linear infinite; /* Adjust the animation duration */
+    width: 100%; /* Make the slider container twice the width for infinite loop */
+  }
+  
+  .slide {
+    flex: 0 0 10%; /* Divide the width equally for each slide */
+    width: 100%;
+    box-sizing: border-box; /* Include padding and borders in the width */
+  }
+  
+  .slide img {
+    width: 90%;
+    height: auto;
+  }
+  

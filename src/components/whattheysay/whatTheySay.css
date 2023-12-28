@@ -1,0 +1,42 @@
+.theySay{
+    background-color: #ebf1f8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    color: #333;
+}
+
+.theySaytitle{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #20394f;
+    margin-bottom: none !important;
+}
+.theySaytitleunderline{
+    width: 100px;
+    border-top: 2px solid #7cdae2;
+    color: #2a9df4;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.theySaypic{
+    text-align: center;
+}
+.theySaypic img {
+    padding: 10px;
+}
+.theySaypic img:hover{
+    /* border: 10px solid #ccc;
+     */
+    background-color: #ccc;
+}
+@media only screen and (max-width: 929px){
+    .theySay img{
+      width:30rem;
+    }
+}

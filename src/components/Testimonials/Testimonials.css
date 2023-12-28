@@ -1,0 +1,68 @@
+.testimonial{
+  padding: 5rem 0rem;
+}
+.test_header{
+  justify-content: center;
+  text-align: center;
+}
+.test_header hr{
+  width: 100px;
+  border-top: 2px solid #7cdae2;
+  color: #2a9df4;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.test_header h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: #20394f;
+}
+.leftImg{
+  border: solid rgba(151, 140, 140, 0.368) 10px;
+}
+.test_data{
+  display: flex;
+  justify-content: space-evenly;
+}
+.student1 ,.student2{
+  display: flex;
+  justify-content: space-between;
+
+}
+.student1 img ,.student2 img{
+  border: solid rgb(151, 140, 140) 3px;
+  border-radius: 85px;
+  margin-right: 10px;
+}
+.student1 .img_data ,.student2 .img_data {
+  text-align: center;
+}
+.cont_data1,.cont_data2{
+  margin-left: 5rem;
+}
+.cont_data1 h3,.cont_data2 h3{
+  font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+.cont_data1 p,.cont_data2 p{
+    line-height: 22px;
+}
+.sstory a{
+  text-decoration: none;
+}
+@media only screen and (max-width: 929px){
+.leftImg{
+  text-align: center;
+}
+  .test_data{
+    flex-direction: column;
+  }
+}
