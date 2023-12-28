@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <div class="onlineTraining">Online Training</div>
             <div class="footer-columns">
-                <ul style={{textAlign:'left'}}>
+                <ul >
                     <li><a href="#">SAP FICO Online Training</a></li>
                     <li><a href="#">SAP MM Online Training</a></li>
                     <li><a href="#">SAP SD Online Training</a></li>
